@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directions - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+          <h1 class="logo">Restaurant
+          </h1>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#menu">Menu</a></li>
+              <li><a href="directions.html#directions">Directions</a></li>
+              <li><a href="job.html#jobs">Job Openings</a></li>
+              <li><a href="news.html#news">News</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="modal" id="privacyModal">
+        <div class="modal-content">
+          <span id="closeBtn">&times;</span>
+          <h2>Privacy Policy</h2>
+          <section>
+            <h3>Introduction</h3>
+            <p>We respect your privacy and are committed to protecting your personal data.</p>
+          </section>
+          <section>
+            <h3>Data Collection</h3>
+            <p>We collect data when you fill forms, make reservations, or sign up for newsletters.</p>
+          </section>
+          <section>
+            <h3>Use of Data</h3>
+            <p>Your data helps us improve service and send updates about specials.</p>
+          </section>
+          <section>
+            <h3>Cookies</h3>
+            <p>We use cookies to personalize your experience on our site.</p>
+          </section>
+          <section>
+            <h3>Third-Party Links</h3>
+            <p>Our site may contain links to external sites. We are not responsible for their privacy practices.</p>
+          </section>
+          <section>
+            <h3>Contact Us</h3>
+            <p>If you have questions, email us at <a href="mailto:privacy@restaurant.com">privacy@restaurant.com</a>.</p>
+          </section>
+        </div>
+      </div>
+    
+      <main id="directions" class="container">
+        <h2>How to Find Us</h2>
+        <p>We’re located at Avinguda Catalunya, 100, Badalona, Spain. Use the map below or follow the written directions.</p>
+    
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12456.494017945079!2d1.453389028732254!3d38.69200722747633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1751871612553!5m2!1sde!2sde"
+            width="100%" height="450" style="border:0;" allowfullscreen loading="lazy">
+          </iframe>
+        </div>
+    
+        <section class="directions-list">
+          <h3>By Car</h3>
+          <ol>
+            <li>Take Highway A toward City Center.</li>
+            <li>Exit at Main Street and turn right.</li>
+            <li>Continue for 500m; we’ll be on your left.</li>
+          </ol>
+    
+          <h3>By Public Transport</h3>
+          <ul>
+            <li>Bus 22: Stop at Main St. & 1st Ave.</li>
+            <li>Walk 200m north to the restaurant entrance.</li>
+          </ul>
+        </section>
+      </main>
+    
+      <footer>
+        <div class="container">
+          <p>&copy; 2025 Restaurant. All rights reserved.</p>
+          <p><a href="index.html#contact">Contact Us</a> | <a href="#privacy" id="privacyLink">Privacy Policy</a></p>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>

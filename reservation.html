@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+          <h1 class="logo">Restaurant
+          </h1>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#menu">Menu</a></li>
+              <li><a href="directions.html#directions">Directions</a></li>
+              <li><a href="job.html#jobs">Job Openings</a></li>
+              <li><a href="news.html#news">News</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="modal" id="privacyModal">
+        <div class="modal-content">
+          <span id="closeBtn">&times;</span>
+          <h2>Privacy Policy</h2>
+          <section>
+            <h3>Introduction</h3>
+            <p>We respect your privacy and are committed to protecting your personal data.</p>
+          </section>
+          <section>
+            <h3>Data Collection</h3>
+            <p>We collect data when you fill forms, make reservations, or sign up for newsletters.</p>
+          </section>
+          <section>
+            <h3>Use of Data</h3>
+            <p>Your data helps us improve service and send updates about specials.</p>
+          </section>
+          <section>
+            <h3>Cookies</h3>
+            <p>We use cookies to personalize your experience on our site.</p>
+          </section>
+          <section>
+            <h3>Third-Party Links</h3>
+            <p>Our site may contain links to external sites. We are not responsible for their privacy practices.</p>
+          </section>
+          <section>
+            <h3>Contact Us</h3>
+            <p>If you have questions, email us at <a href="mailto:privacy@restaurant.com">privacy@restaurant.com</a>.</p>
+          </section>
+        </div>
+      </div>
+
+      <main id="reservation" class="container">
+        <h2>Make a Reservation</h2>
+        <form action="#" method="POST" class="reservation-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+    
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+    
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+    
+          <label for="guests">Number of Guests:</label>
+          <select id="guests" name="guests" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6+</option>
+          </select>
+    
+          <button type="submit">Reserve Table</button>
+        </form>
+      </main>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>Avinguda Catalunya, 100, Badalona, Spain | 722019321</p>
+          <a href="reservation.html">Make Reservation</a>
+        </div>
+      </section>
+    </main>
+  
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Restaurant. All rights reserved.</p>
+        <p><a href="index.html#contact">Contact Us</a> | <a href="#privacy" id="privacyLink">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

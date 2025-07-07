@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Site header with logo and navigation -->
+    <header>
+        <div class="container header-flex">
+          <h1 class="logo">Restaurant
+          </h1>
+          <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li> <!-- Link to Home section -->
+                <li><a href="#about">About</a></li> <!-- Link to About section -->
+                <li><a href="#menu">Menu</a></li> <!-- Link to Menu section -->
+                <li><a href="directions.html#directions">Directions</a></li> <!-- Link to Directions page -->
+                <li><a href="job.html#jobs">Jobs</a></li> <!-- Link to Job Openings page -->
+                <li><a href="news.html#news">News</a></li> <!-- Link to News page -->
+                <li><a href="#contact">Contact</a></li> <!-- Link to Contact section -->
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+          <!-- Privacy policy modal, hidden by default -->
+      <div class="modal" id="privacyModal">
+        <div class="modal-content">
+            <span id="closeBtn" class="modal-close">&times;</span> <!-- Close button -->
+          <h2>Privacy Policy</h2>
+          <section class="policy-section"> <!-- Introduction -->
+            <h3>Introduction</h3>
+            <p>We respect your privacy and are committed to protecting your personal data.</p>
+          </section>
+          <section class="policy-section"> <!-- Data Collection -->
+            <h3>Data Collection</h3>
+            <p>We collect data when you fill forms, make reservations, or sign up for newsletters.</p>
+          </section>
+          <!-- Additional policy sections amitted for brevity -->
+          <section class="policy-section">
+            <h3>Use of Data</h3>
+            <p>Your data helps us improve service and send updates about specials.</p>
+          </section>
+          <section class="policy-section">
+            <h3>Cookies</h3>
+            <p>We use cookies to personalize your experience on our site.</p>
+          </section>
+          <section class="policy-section">
+            <h3>Third-Party Links</h3>
+            <p>Our site may contain links to external sites. We are not responsible for their privacy practices.</p>
+          </section>
+          <section class="policy-section">
+            <h3>Contact Us</h3>
+            <p>If you have questions, email us at <a href="mailto:privacy@restaurant.com">privacy@restaurant.com</a>.</p>
+          </section>
+        </div>
+      </div>
+    
+      <main>
+        <!-- Hero banner with welcome message -->
+        <section id="home" class="hero">
+          <div class="container">
+            <h2 class="hero-title">Welcome to Restaurant</h2>
+            <p class="hero-subtitle">Experience our delicious cuisine and warm hospitality.</p>
+          </div>
+        </section>
+
+        <!-- About Us section with mission statement -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <p class="section-text">Founded in 2020, Restaurant Name brings authentic flavors and a modern twist to classic dishes. Our mission is to create memorable dining experiences for every guest.</p>
+            </div>
+        </section>
+
+            <!-- Team section showcasting staff -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member"> <!-- Chef bio card -->
+                    <img src="images/chef.png" alt="Head Chef">
+                    <h3>Angel The Goddess</h3>
+                    <p>Head Chef with 10 years of international experience.</p>
+                </div>
+                <!-- Other team members omitted -->
+                <div class="team-member">
+                    <img src="images/manager.png" alt="Restaurant Manager">
+                    <h3>Rafa The Master</h3>
+                    <p>Restaurant Manager ensuring top-notch service.</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/pastry.png" alt="Pastry Chef">
+                    <h3>Chen Wong son of Wong</h3>
+                    <p>Pastry Chef crafting delightful desserts.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+        <!-- Menu teaser linking to full menu page -->
+        <section id="menu" class="menu-teaser">
+          <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-text"><a class="menu-link" href="menu.html">Explore</a> our selection of mouth-watering dishes</p>
+          </div>
+        </section>
+
+            <!-- Special Offers list -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <h2>Special Offers</h2>
+            <ul class="offers-list">
+                <li><strong>Happy Hour:</strong> 4-6pm daily – 50% off select appetizers.</li>
+                <!-- Other offers omitted -->
+                <li><strong>Weekend Brunch:</strong> Weekend special 2-for-1 mimosas.</li>
+                <li><strong>Chef’s Tasting:</strong> Monthly chef’s tasting menu – reservation required.</li>
+            </ul>
+        </div>
+    </section>
+    
+        <!-- Contact/Reservation prompt -->
+        <section id="contact">
+          <div class="container" id="reservation">
+            <h2>Contact Us</h2>
+            <p>Avinguda Catalunya, 100, Badalona, Spain | 722019321</p>
+            <a class="btn" href="reservation.html">Make Reservation</a>
+          </div>
+        </section>
+      </main>
+    
+      <footer>
+        <div class="container">
+          <p>&copy; 2025 Restaurant. All rights reserved.</p>
+          <p><a href="index.html#contact">Contact Us</a> | <a href="#privacy" id="privacyLink">Privacy Policy</a></p>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+          <h1 class="logo">Restaurant
+          </h1>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#menu">Menu</a></li>
+              <li><a href="directions.html#directions">Directions</a></li>
+              <li><a href="job.html#jobs">Job Openings</a></li>
+              <li><a href="news.html#news">News</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <div class="modal" id="privacyModal">
+        <div class="modal-content">
+          <span id="closeBtn">&times;</span>
+          <h2>Privacy Policy</h2>
+          <section>
+            <h3>Introduction</h3>
+            <p>We respect your privacy and are committed to protecting your personal data.</p>
+          </section>
+          <section>
+            <h3>Data Collection</h3>
+            <p>We collect data when you fill forms, make reservations, or sign up for newsletters.</p>
+          </section>
+          <section>
+            <h3>Use of Data</h3>
+            <p>Your data helps us improve service and send updates about specials.</p>
+          </section>
+          <section>
+            <h3>Cookies</h3>
+            <p>We use cookies to personalize your experience on our site.</p>
+          </section>
+          <section>
+            <h3>Third-Party Links</h3>
+            <p>Our site may contain links to external sites. We are not responsible for their privacy practices.</p>
+          </section>
+          <section>
+            <h3>Contact Us</h3>
+            <p>If you have questions, email us at <a href="mailto:privacy@restaurant.com">privacy@restaurant.com</a>.</p>
+          </section>
+        </div>
+    </div>
+
+    <main id="menu" class="container">
+        <h2>Our Menu</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Dish</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Margherita Pizza</td>
+              <td>Classic pizza with fresh tomatoes, mozzarella, and basil.</td>
+              <td>$12</td>
+              <td><img class="menu-img" src="images/margherita.jpg" alt="Margherita Pizza"></td>
+            </tr>
+            <tr>
+              <td>Caesar Salad</td>
+              <td>Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan.</td>
+              <td>$8</td>
+              <td><img class="menu-img" src="images/caesar_salad.jpg" alt="Caesar Salad"></td>
+            </tr>
+            <tr>
+              <td>Spaghetti Carbonara</td>
+              <td>Pasta tossed with eggs, cheese, pancetta, and pepper.</td>
+              <td>$14</td>
+              <td><img class="menu-img" src="images/carbonara.jpg" alt="Spaghetti Carbonara"></td>
+            </tr>
+            <tr>
+              <td>Grilled Salmon</td>
+              <td>Served with lemon butter sauce and seasonal vegetables.</td>
+              <td>$18</td>
+              <td><img class="menu-img" src="images/grilled_salmon.jpg" alt="Grilled Salmon"></td>
+            </tr>
+            <tr>
+              <td>Beef Tacos</td>
+              <td>Three tacos with seasoned beef, lettuce, cheese, and salsa.</td>
+              <td>$10</td>
+              <td><img class="menu-img" src="images/beef_tacos.jpg" alt="Beef Tacos"></td>
+            </tr>
+            <tr>
+              <td>Chicken Teriyaki Bowl</td>
+              <td>Grilled chicken glazed with teriyaki sauce over rice.</td>
+              <td>$13</td>
+              <td><img class="menu-img" src="images/teriyaki_bowl.jpg" alt="Chicken Teriyaki Bowl"></td>
+            </tr>
+            <tr>
+              <td>Veggie Burger</td>
+              <td>House-made veggie patty with lettuce, tomato, and aioli.</td>
+              <td>$11</td>
+              <td><img class="menu-img" src="images/veggie_burger.jpg" alt="Veggie Burger"></td>
+            </tr>
+            <tr>
+              <td>Sushi Platter</td>
+              <td>Assortment of nigiri and rolls served with soy sauce and wasabi.</td>
+              <td>$20</td>
+              <td><img class="menu-img" src="images/sushi_platter.jpg" alt="Sushi Platter"></td>
+            </tr>
+            <tr>
+              <td>Steak Frites</td>
+              <td>Sirloin steak with garlic butter and crispy fries.</td>
+              <td>$22</td>
+              <td><img class="menu-img" src="images/steak_frites.jpg" alt="Steak Frites"></td>
+            </tr>
+            <tr>
+              <td>Chocolate Lava Cake</td>
+              <td>Warm chocolate cake with a gooey center and vanilla ice cream.</td>
+              <td>$7</td>
+              <td><img class="menu-img" src="images/lava_cake.jpg" alt="Chocolate Lava Cake"></td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+
+        <!-- Image Modal -->
+    <div id="imgModal">
+        <span class="close">&times;</span>
+        <img id="modalImg" src="" alt="">
+    </div>
+
+    <footer>
+        <div class="container">
+          <p>&copy; 2025 Restaurant. All rights reserved.</p>
+          <p><a href="index.html#contact">Contact Us</a> | <a href="#privacy" id="privacyLink">Privacy Policy</a></p>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+      <script src="images.js"></script>
+</body>
+</html>
